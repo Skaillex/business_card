@@ -1,7 +1,69 @@
 body{
+    margin: 0;
+    padding: 0;
+    border: 0;
     background-color: #000000;
 }
 
 header{
     background-color: #181818;
+    padding: 1.5vw 5vw;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.list{
+    display: flex;
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+    margin-left: 56px;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list a:hover {
+    text-decoration: underline;
+}
+
+.button-menu {
+    margin-left: 56px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    width: 10rem;
+    padding: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-menu p {
+    text-align: center;
+    margin: 0;
+    color: #000000;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-menu a {
+    text-decoration: none;
+}
+
+.background img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
