@@ -3,6 +3,7 @@ body{
     padding: 0;
     border: 0;
     background-color: #000000;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -62,8 +63,29 @@ header{
     text-decoration: none;
 }
 
+.background{
+position: relative;
+}
+
 .background img {
     display: block;
     width: 100%;
     height: auto;
+    pointer-events: none;
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;
+}
+
+.content-text{
+    position: absolute;
+    bottom: 9rem;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 40em;
+}
+
+.list-img{
+    position: absolute;
+    bottom: 12rem;
+    right: 3rem;
+
 }
