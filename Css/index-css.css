@@ -72,12 +72,11 @@ position: relative;
     width: 100%;
     height: auto;
     pointer-events: none;
-    -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;
 }
 
 .content-text{
     position: absolute;
-    bottom: 9rem;
+    bottom: 6vw;
     left:50%;
     transform:translate(-50%, -50%);
     width: 40em;
@@ -85,7 +84,21 @@ position: relative;
 
 .list-img{
     position: absolute;
-    bottom: 12rem;
+    bottom: 10vw;
     right: 3rem;
+}
 
+.text-p-card h1{
+    font-weight:unset;
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 1rem;
+}
+
+.text-p-card p{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height:2rem;
 }
