@@ -155,7 +155,7 @@ position: relative;
 }
 
 .text-card h1{
-    font-size: calc(20px - 4 * (100vw/1440));
+    font-size: calc(14px - 2 * (100vw/1440));
     color: #FFFFFF;
     font-weight:unset;
     letter-spacing: 2px;
@@ -163,7 +163,7 @@ position: relative;
 }
 
 .text-card h2{
-    font-size: calc(20px - 4 * (100vw/1440));
+    font-size: calc(14px - 2 * (100vw/1440));
     color: #C0C0C0;
     font-weight:unset;
     line-height: 20px;
