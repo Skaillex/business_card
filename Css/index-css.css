@@ -147,15 +147,15 @@ position: relative;
 }
 
 .text-card{
+    position:absolute;
     bottom: 30px; 
     left: 30px;
     right: 45px; 
     color: aliceblue; 
-    position:absolute;
 }
 
 .text-card h1{
-    font-size: calc(14px - 2 * (100vw/1440));
+    font-size: calc(14px + 1 * (100vw/1440));
     color: #FFFFFF;
     font-weight:unset;
     letter-spacing: 2px;
@@ -163,11 +163,10 @@ position: relative;
 }
 
 .text-card h2{
-    font-size: calc(14px - 2 * (100vw/1440));
+    font-size: calc(14px + 1 * (100vw/1440));
     color: #C0C0C0;
     font-weight:unset;
     line-height: 20px;
 }
-
 
 
