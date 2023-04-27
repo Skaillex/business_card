@@ -12,6 +12,10 @@ header{
     padding: 1.5vw 5vw;
 }
 
+p{
+    margin: 0;
+}
+
 .header-items {
     display: flex;
     align-items: center;
@@ -167,6 +171,17 @@ position: relative;
     color: #C0C0C0;
     font-weight:unset;
     line-height: 20px;
+}
+
+.content-button{
+    position: relative;
+}
+
+.button-text{
+    position: absolute; 
+    bottom: 15px; 
+    left:40px; 
+    color: black;
 }
 
 
