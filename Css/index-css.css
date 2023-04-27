@@ -184,4 +184,22 @@ position: relative;
     color: black;
 }
 
+.text h1,h2{
+    font-weight:unset;
+    text-align: justify;
+    color:#C0C0C0; font-size: 0.9em;
+    text-align: left;
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 1.3rem;
+    font-size: 14px;
+    font-size: calc(14px + 0 * (100vw/1440));
+}
+
+.text{
+    position: absolute;
+    right: 60px;
+    bottom: 35%;
+}
+
 
