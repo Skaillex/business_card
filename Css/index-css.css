@@ -215,6 +215,7 @@ position: relative;
 
     .card-items{
     width: 100%;
+
 }
 .img-card{
     width: 100%;
@@ -223,7 +224,6 @@ position: relative;
 .text-p-card h1{
     font-size: 4rem;
 }
-
 
 .text-card h1{
     font-size: calc(50px + 1 * (100vw/1440));
