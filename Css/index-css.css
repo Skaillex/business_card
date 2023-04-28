@@ -253,6 +253,21 @@ position: relative;
     color: black;
     font-size: 1.8rem;
 }
+
+.text h1,h2{
+    color:#C0C0C0;
+    text-align: left;
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 1.6rem;
+    font-size: calc(20px + 0 * (100vw/1440));
+}
+
+.text{
+    position: absolute;
+    right: 60px;
+    bottom: 35%;
+}
 }
 
 
