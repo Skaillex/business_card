@@ -348,7 +348,6 @@ position: relative;
         font-weight:unset;
         color:#C0C0C0;
         display: inline;
-        text-align: left;
         letter-spacing: 2px;
         line-height: 2.8rem;
         font-size: calc(20px + 2 * (100vw/1440));
@@ -358,7 +357,6 @@ position: relative;
         font-weight:unset;
         display: inline;
         color:white;
-        text-align: left;
         line-height: 2.8rem;
         font-size: calc(40px + 2 * (100vw/1440));
     }
@@ -367,11 +365,39 @@ position: relative;
         font-weight:unset;
         display: inline;
         color:#C0C0C0;
-        text-align: left;
         line-height: 2.8rem;
         font-size: calc(20px + 2 * (100vw/1440));
     }
 }
+
+.heading{
+    margin-top: 100px;
+}
+
+
+.heading h1{
+    font-weight:unset;
+    line-height: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+.heading h2{
+    font-weight:unset;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.container-clients{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
 
 
 
