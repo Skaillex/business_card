@@ -215,8 +215,16 @@ position: relative;
 
     .card-items{
     width: 100%;
-
 }
+
+.content-text{
+    position: absolute;
+    bottom: 6vw;
+    width: 40rem;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
 .img-card{
     width: 100%;
 }
