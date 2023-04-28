@@ -397,6 +397,12 @@ position: relative;
     margin-bottom: 100px;
 }
 
+.button-text-photo-2{
+    position: absolute;
+    bottom: 10px;
+    left: 460px!important;
+}
+
 
 
 
