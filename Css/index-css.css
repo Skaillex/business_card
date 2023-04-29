@@ -10,6 +10,7 @@ body{
 header{
     background-color: #181818;
     padding: 1.5vw 5vw;
+    align-items: center;
 }
 
 p{
@@ -20,6 +21,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .list a{
@@ -419,7 +421,7 @@ footer{
     justify-content: space-between;
 }
 
-ul{
+.footer-ul{
     list-style-type: none;
     padding-left: 0;
     margin-top: 0;
